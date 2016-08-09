@@ -1,6 +1,6 @@
 If you want simply to have the jenkins.war as fast as possible (without test
 execution), run:
-start files )))))))))))))))))):
+start files )))))))))))))))))))))):
     mvn clean install -pl war -am -DskipTests
 
 The WAR file will be in war/target/jenkins.war (you can play with it)
